@@ -1,0 +1,192 @@
+
+[entity]
+	enableAlrauneRegen = true
+	magicalSlimeSpawnsOnSlimeGirlDeath = true
+	enableSlimeGirlRegen = true
+	crimsonSlaughtererAttackAnimals = true
+	alrauneAttackVillagers = true
+	savagefangAttackAnimals = true
+	enableEnderExecutorReduceDamage = true
+	lichAttackBabyTurtles = true
+	necroticReaperAttackBabyTurtles = true
+	monolithAttackVillagers = true
+	redcapAttackVillagers = true
+	savagefangAttackIllagers = true
+	snowCanineAttackRabbits = true
+	snowCanineAttackBabyTurtles = true
+	kashaAttackVillagers = true
+	spiderNestSummonCaveSpider = true
+	dyssomniaSummonPhantom = true
+	savagefangAttackVillagers = true
+	ogreAttackBabyTurtles = true
+	snowCanineAttackSheep = true
+	lichSummonVex = true
+	enableOgreDestroyBlocks = true
+	enableJackFrostFreezesWater = true
+	kashaAttackBabyTurtles = true
+	crimsonSlaughtererAttackVillagers = true
+	enableEnderExecutorBeamAttack = true
+	ogreAttackVillagers = true
+	kashaAttackChickens = true
+	savagefangAttackDamagedMobs = true
+	monolithAttackIllagers = true
+	kashaAttackBabyHoglins = true
+	enableMeltyMonsterSetFire = true
+	necroticReaperAttackVillagers = true
+	monolithAttackGolems = true
+	redcapAttackBabyTurtles = true
+
+	[entity.spawn]
+		mobReplaceDimentionBlacklist = [""]
+		mobReplaceBiomeBlacklist = [""]
+		spawnBiomeBlacklist = ["minecraft:mushroom_fields", "minecraft:mushroom_field_shore", "biomesoplenty:rainbow_hills", "biomesoplenty:crystalline_chasm", "cinderscapes:luminous_grove", "infernalexp:glowstone_canyon"]
+		spawnNetherBiomeWhitelist = [""]
+		spawnDimentionBlacklist = [""]
+		spawnOverworldBiomeWhitelist = [""]
+		spawnEndBiomeWhitelist = [""]
+
+		[entity.spawn.chance]
+			#Range: 0.0 ~ 1.0
+			crimsonSlaughtererSpawnChance = 0.5
+			#Range: 0.0 ~ 1.0
+			ghastlySeekerSpawnChance = 0.05
+			#Range: 0.0 ~ 1.0
+			savagefangSpawnChance = 0.8
+
+		[entity.spawn.replaceChance]
+			#Range: 0.0 ~ 1.0
+			zombieGirlReplaceChance = 0.15
+			#Range: 0.0 ~ 1.0
+			creeperGirlReplaceChance = 0.15
+			#Range: 0.0 ~ 1.0
+			huskGirlReplaceChance = 0.15
+			#Range: 0.0 ~ 1.0
+			skeletonGirlReplaceChance = 0.15
+			#Range: 0.0 ~ 1.0
+			witherSkeletonGirlReplaceChance = 0.15
+			#Range: 0.0 ~ 1.0
+			strayGirlReplaceChance = 0.15
+			#Range: 0.0 ~ 1.0
+			enderExecutorReplaceChance = 0.03125
+			#Range: 0.0 ~ 1.0
+			drownedGirlReplaceChance = 0.15
+
+		[entity.spawn.weight]
+			#Range: > 0
+			meltyMonsterSpawnWeightInNether = 2
+			#Range: > 0
+			ghastlySeekerSpawnWeightInBasaltDeltas = 2
+			#Range: > 0
+			ghastlySeekerSpawnWeightInSoulSandValley = 4
+			#Range: > 0
+			slimeGirlSpawnWeight = 10
+			#Range: > 0
+			dullahanSpawnWeight = 10
+			#Range: > 0
+			impSpawnWeightInBasaltDeltas = 2
+			#Range: > 0
+			ghastlySeekerSpawnWeight = 7
+			#Range: > 0
+			impSpawnWeightInCrimsonForest = 2
+			#Range: > 0
+			witherGhostSpawnWeightInSoulSandValley = 8
+			#Range: > 0
+			meltyMonsterSpawnWeight = 15
+			#Range: > 0
+			savagefangSpawnWeightInJungle = 20
+			#Range: > 0
+			kashaSpawnWeight = 5
+			#Range: > 0
+			doguSpawnWeight = 10
+			#Range: > 0
+			ghostSpawnWeight = 25
+			#Range: > 0
+			impSpawnWeight = 5
+			#Range: > 0
+			ogreSpawnWeight = 8
+			#Range: > 0
+			dodomekiSpawnWeight = 15
+			#Range: > 0
+			fortressKeeperSpawnWeightInNetherFortress = 5
+			#Range: > 0
+			necroticReaperSpawnWeight = 8
+			#Range: > 0
+			witherGhostSpawnWeight = 12
+			#Range: > 0
+			spiderNestSpawnWeight = 8
+			#Range: > 0
+			meltyMonsterSpawnWeightInEnd = 0
+			#Range: > 0
+			dyssomniaSpawnWeight = 5
+			#Range: > 0
+			cursedDollSpawnWeight = 15
+			#Range: > 0
+			kashaSpawnWeightInSoulSandValley = 3
+			#Range: > 0
+			monolithSpawnWeightInEndCity = 40
+			#Range: > 0
+			harpySpawnWeight = 15
+			#Range: > 0
+			witherGhostSpawnWeightInBasaltDeltas = 5
+			#Range: > 0
+			crimsonSlaughtererSpawnWeight = 2
+			#Range: > 0
+			alrauneSpawnWeight = 10
+			#Range: > 0
+			savagefangSpawnWeightInSwamp = 10
+			#Range: > 0
+			jackFrostSpawnWeight = 10
+			#Range: > 0
+			kashaSpawnWeightInBasaltDeltas = 2
+			#Range: > 0
+			koboldSpawnWeight = 20
+			#Range: > 0
+			snowCanineSpawnWeight = 15
+			#Range: > 0
+			lichSpawnWeight = 8
+			#Range: > 0
+			bansheeSpawnWeight = 15
+			#Range: > 0
+			stoneularSpawnWeight = 15
+			#Range: > 0
+			scorpionSpawnWeight = 15
+			#Range: > 0
+			hornetSpawnWeight = 10
+			#Range: > 0
+			catoblepasSpawnWeight = 15
+			#Range: > 0
+			redcapSpawnWeight = 15
+			#Range: > 0
+			monolithSpawnWeight = 3
+
+[enchantment]
+	healthBoostIsTradeable = true
+	healthBoostIsDiscoverable = true
+	waterAspectIsDiscoverable = true
+	#Range: 1 ~ 10
+	healthBoostMaxLevel = 5
+	waterAspectIsTreasure = false
+	waterAspectIsTradeable = true
+	#Range: 1 ~ 10
+	waterAspectMaxLevel = 5
+	healthBoostIsTreasure = true
+
+[potion]
+	enableHarmingIIIPotionBrewingRecipes = true
+	enableInvisibilityPotionBrewingRecipes = true
+	enableBlastingBottleBrewingRecipes = true
+	enableLightningBottleBrewingRecipes = true
+	enableSlownessPotionBrewingRecipes = true
+	enableCombustionPotionBrewingRecipes = true
+	enableOgrePotionBrewingRecipes = true
+	enableRegenerationPotionBrewingRecipes = true
+	enableKoboldPotionBrewingRecipes = true
+	enableHealingIIIPotionBrewingRecipes = true
+	enableVoracityPotionBrewingRecipes = true
+	enableEnderRagePotionBrewingRecipes = true
+
+[world]
+	additionalChestLoots = true
+	additionalVillagerTrades = true
+	additionalWandererTrades = true
+
